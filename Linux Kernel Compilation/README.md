@@ -1,20 +1,16 @@
 1. `cd /usr/src/` - не сделал (там лежат папки всех ядер, а я распаковал просто в домашней папке)
     
     `wget https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-6.2.1.tar.xz`
-   
+    
 2. `tar xvf linux-6.2.1.tar.xz`
-
 3. `sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison`
 
 [Пакеты Linux для сборки ядра Flashcards](https://quizlet.com/_cypy9k?x=1jqt&i=4b79qc)
 
-4. `cd linux-6.2.1`
-
-5. `sudo cp -v /boot/config-$(uname -r) .config`
-
-6. `make menuconfig`
-
-7. `sudo nano .config`
+1. `cd linux-6.2.1`
+2. `sudo cp -v /boot/config-$(uname -r) .config`
+3. `make menuconfig`
+4. `sudo nano .config`
     - для быстрого поиска в файле используем “ctrl + w”
     
     ```bash
@@ -23,12 +19,13 @@
     ```
     
     - сохраняем файл
-
-8. `make` (по умолчанию 1 поток)
+5. `make` (по умолчанию 1 поток)
     
     или
     
     `make -jN` (где N - количество потоков, которое будет задействовано при сборке)
+    
+
 ---
 
 **Команды windows для расширения памяти диска виртуалки (не помогло)**
@@ -42,15 +39,10 @@
 ---
 
 1. `sudo make modules_install`
-
 2. `sudo make install`
-    
 3. `sudo update-initramfs -c -k 6.2.1`
-    
 4. `sudo update-grub2`
-
 5. `sudo reboot`
-
 6. `uname -r`
 
 ---
@@ -169,7 +161,7 @@ done
     `time make -j6` - сборка с 6-ю потоками, т.к. выводы из основной проделанной лабораторной работы показали, что для сборки ядра это кол-во потоков является наиболее эффективным.
     
     **Результат:** `87m38,402s` - 5258 секунд
-
+    
 2. …
     
     **Результат:** 82m17,982s - 4998 секунд
