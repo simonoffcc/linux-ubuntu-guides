@@ -3,7 +3,7 @@ Guides on how to do some kernel-related labs in the GNU/Linux course of the seco
 
 ---
 
-### Ссылки на оригинальные гайды
+### Ссылки на оригинальные гайды (Notion)
 
 [Linux Kernel Compilation](https://www.notion.so/b5000ea1d3b141c5b874dc175e804319?pvs=21)
 
