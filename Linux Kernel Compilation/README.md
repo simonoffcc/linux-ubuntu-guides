@@ -7,10 +7,10 @@
 
 [Пакеты Linux для сборки ядра Flashcards](https://quizlet.com/_cypy9k?x=1jqt&i=4b79qc)
 
-1. `cd linux-6.2.1`
-2. `sudo cp -v /boot/config-$(uname -r) .config`
-3. `make menuconfig`
-4. `sudo nano .config`
+4. `cd linux-6.2.1`
+5. `sudo cp -v /boot/config-$(uname -r) .config`
+6. `make menuconfig`
+7. `sudo nano .config`
     - для быстрого поиска в файле используем “ctrl + w”
     
     ```bash
@@ -19,7 +19,7 @@
     ```
     
     - сохраняем файл
-5. `make` (по умолчанию 1 поток)
+8. `make` (по умолчанию 1 поток)
     
     или
     
@@ -38,12 +38,12 @@
 
 ---
 
-1. `sudo make modules_install`
-2. `sudo make install`
-3. `sudo update-initramfs -c -k 6.2.1`
-4. `sudo update-grub2`
-5. `sudo reboot`
-6. `uname -r`
+9. `sudo make modules_install`
+10. `sudo make install`
+11. `sudo update-initramfs -c -k 6.2.1`
+12. `sudo update-grub2`
+13. `sudo reboot`
+14. `uname -r`
 
 ---
 
