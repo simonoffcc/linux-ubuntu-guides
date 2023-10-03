@@ -122,7 +122,7 @@ MODULE_DESCRIPTION(DRIVER_DESC); /* Назначение модуля */
     
     38 | MODULE_SUPPORTED_DEVICE("testdevice");
     
-    ![Ошибка в коде](https://github.com/simonoffcc/images/code_error.png)
+    ![Ошибка в коде](https://github.com/simonoffcc/linux-ubuntu-guides/images/code_error.png)
     
 - **РЕШЕНИЕ**
     
