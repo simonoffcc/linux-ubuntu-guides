@@ -122,7 +122,7 @@ MODULE_DESCRIPTION(DRIVER_DESC); /* Назначение модуля */
     
     38 | MODULE_SUPPORTED_DEVICE("testdevice");
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4f721adf-413a-4d32-a8fa-554b8ab76eef/Untitled.png)
+    ![Ошибка в коде](*/images/code_error.png)
     
 - **РЕШЕНИЕ**
     
@@ -302,4 +302,4 @@ startstop-objs := start.o stop.o
 
 </aside>
 
-sudo dmesg
+`sudo dmesg`
