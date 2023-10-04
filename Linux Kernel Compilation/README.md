@@ -130,9 +130,7 @@ done
 
 ---
 
-[Распараллеливание процессов](https://habr.com/ru/company/xakep/blog/210480/) - решение.
-
-***(Из статьи)***: 
+[Распараллеливание процессов](https://habr.com/ru/company/xakep/blog/210480/)
 
   - Чтобы выиграть еще немного времени, можно добавить ключ '-pipe' к GCC. С этим ключом передача данных между разными стадиями компиляции происходит через каналы обмена (pipes), а не через временные файлы, что немного (совсем немного) ускоряет процесс.
 
@@ -142,29 +140,33 @@ done
 
 1. `sudo nano .config`
     
-    `CONFIG_DEBUG_INFO` → `#CONFIG_DEBUG_INFO`
+    ~~`CONFIG_DEBUG_INFO`~~ → `#CONFIG_DEBUG_INFO`
     
     `time make -j6` - сборка с 6-ю потоками, т.к. выводы из основной проделанной лабораторной работы показали, что для сборки ядра это кол-во потоков является наиболее эффективным.
     
     **Результат:** `87m38,402s` - 5258 секунд
     
-2. …
+2. Повтор действий
     
     **Результат:** 82m17,982s - 4998 секунд
     
 3. Прирост - всего 1% (0,9505515405)
 
-Результат неудовлетворительный.
+**Результат неудовлетворительный.**
 
 ---
 
-https://www.opennet.ru/docs/RUS/gnumake/#Make
+## Полезные материалы
 
-https://wiki.gentoo.org/wiki/GCC_optimization/ru#-pipe
+- ![Об утилите `make`](https://www.opennet.ru/docs/RUS/gnumake/#Make)
 
-https://stackoverflow.com/questions/23407635/append-compile-flags-to-cflags-and-cxxflags-while-configuration-make
+- ![Просто о make - Habr](https://habr.com/ru/post/211751/)
 
-http://computerlib.narod.ru/html/gcc.htm
+- ![Флаг оптимизации `-pipe`](https://wiki.gentoo.org/wiki/GCC_optimization/ru#-pipe)
+
+- ![Синтаксис использования флагов оптимизации](https://stackoverflow.com/questions/23407635/append-compile-flags-to-cflags-and-cxxflags-while-configuration-make)
+
+- ![Реальный пример GCC оптимизации](http://computerlib.narod.ru/html/gcc.htm)
 
 ---
 
@@ -172,7 +174,7 @@ http://computerlib.narod.ru/html/gcc.htm
 
 `time make -j$(nproc) CFLAGS="-pipe -O2 -fomit-frame-pointer"`
 
-ФЭЙЛ.
+**Фэйл.**
 
 ---
 
@@ -180,7 +182,7 @@ http://computerlib.narod.ru/html/gcc.htm
 
 `time make -j4 CFLAGS="-pipe"`
 
-ФЭЙЛ.
+**Фэйл.**
 
 ---
 
@@ -188,15 +190,11 @@ http://computerlib.narod.ru/html/gcc.htm
 
 `time make -j4 "CFLAGS_KERNEL=-pipe"`
 
-************Результат:************ 73m4,368s - 4384 секунд
+**Результат:** 73m4,368s - 4384 секунд
 
 Разница = 874 секунд
 
-**Прирост скорости сборки: 16%**
-
----
-
-Теория про make: https://habr.com/ru/post/211751/
+→ **Прирост скорости сборки: 16%**
 
 ---
 
