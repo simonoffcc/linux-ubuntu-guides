@@ -158,15 +158,15 @@ done
 
 ## Полезные материалы
 
-- ![Об утилите `make`](https://www.opennet.ru/docs/RUS/gnumake/#Make)
+- [Об утилите `make`](https://www.opennet.ru/docs/RUS/gnumake/#Make)
 
-- ![Просто о make - Habr](https://habr.com/ru/post/211751/)
+- [Просто о make - Habr](https://habr.com/ru/post/211751/)
 
-- ![Флаг оптимизации `-pipe`](https://wiki.gentoo.org/wiki/GCC_optimization/ru#-pipe)
+- [Флаг оптимизации `-pipe`](https://wiki.gentoo.org/wiki/GCC_optimization/ru#-pipe)
 
-- ![Синтаксис использования флагов оптимизации](https://stackoverflow.com/questions/23407635/append-compile-flags-to-cflags-and-cxxflags-while-configuration-make)
+- [Синтаксис использования флагов оптимизации](https://stackoverflow.com/questions/23407635/append-compile-flags-to-cflags-and-cxxflags-while-configuration-make)
 
-- ![Реальный пример GCC оптимизации](http://computerlib.narod.ru/html/gcc.htm)
+- [Реальный пример GCC оптимизации](http://computerlib.narod.ru/html/gcc.htm)
 
 ---
 
@@ -206,5 +206,5 @@ done
 
 #### Автор
 
-![Ваня Симоненко](https://t.me/simonoffcc)
+[Ваня Симоненко](https://t.me/simonoffcc)
 , весна, 2023 год
