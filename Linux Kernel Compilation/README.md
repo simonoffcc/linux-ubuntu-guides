@@ -7,7 +7,7 @@
 2. `tar xvf linux-6.2.1.tar.xz`
 3. `sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison`
 
-  - [Пакеты Linux для сборки ядра Flashcards](https://quizlet.com/_cypy9k?x=1jqt&i=4b79qc)
+    - [Пакеты Linux для сборки ядра Flashcards](https://quizlet.com/_cypy9k?x=1jqt&i=4b79qc)
 
 4. `cd linux-6.2.1`
 5. `sudo cp -v /boot/config-$(uname -r) .config`
