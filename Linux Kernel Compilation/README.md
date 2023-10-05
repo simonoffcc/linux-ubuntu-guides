@@ -6,7 +6,7 @@
     
 2. `tar xvf linux-6.2.1.tar.xz`
 3. `sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison`
-
+    - ![Packages](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/packages.png)
     - [Выучить назначения каждого из пакетов Linux для сборки ядра - Flashcards](https://quizlet.com/_cypy9k?x=1jqt&i=4b79qc)
 
 4. `cd linux-6.2.1`
