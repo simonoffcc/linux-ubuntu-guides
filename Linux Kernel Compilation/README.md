@@ -99,6 +99,8 @@ done
 
 Желательно, для точных результатов следует собрать ядро ещё раз по циклу, но можно начиная с 5 потоков.
 
+![funfact](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/2_3_Screenshot.png)
+
 1. 76 + 57
 2. 68
 3. 68
