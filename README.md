@@ -11,7 +11,7 @@
 
 - [Модули ядра Linux](https://github.com/simonoffcc/linux-ubuntu-guides/blob/main/Core%20Modules/README.md)
 
-  - [Код программ на C](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Core%20Modules/code)
+  - [Код программ на языке  C](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Core%20Modules/code)
 
   - [Makefile](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Core%20Modules/code/Makefile)
 
