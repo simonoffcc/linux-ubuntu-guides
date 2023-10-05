@@ -156,8 +156,10 @@ done
 3. Повтор действий
     
     **Результат:** 82m17,982s - 4998 секунд
+
+   - ![result2](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/6_Untitled.png)
     
-4. Прирост - всего 1% (0,9505515405)
+5. Прирост - всего 1% (0,9505515405)
 
 **Результат неудовлетворительный.**
 
@@ -181,6 +183,8 @@ done
 
 `time make -j$(nproc) CFLAGS="-pipe -O2 -fomit-frame-pointer"`
 
+- ![secondTry](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/7_Untitled.png)
+
 **Фэйл.**
 
 ---
@@ -189,13 +193,21 @@ done
 
 `time make -j4 CFLAGS="-pipe"`
 
+- ![thirdTry](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/8_Untitled.png)
+
 **Фэйл.**
 
 ---
 
 ### 4 попытка (подсказка добрых людей с беседы потока)
 
+- ![syntax](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/9_Untitled.png)
+
+- ![explain](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/10_Untitled.png)
+
 `time make -j4 "CFLAGS_KERNEL=-pipe"`
+
+- ![finalResult!](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/10_Untitled.png)
 
 **Результат:** 73m4,368s - 4384 секунд
 
