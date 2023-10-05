@@ -3,7 +3,7 @@
 
 ---
 
-## Навигация по репозиторию
+## Навигация
 
 - [Гайд по сборке ядра Linux](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Linux%20Kernel%20Compilation/README.md)
 
