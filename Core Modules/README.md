@@ -303,3 +303,10 @@ startstop-objs := start.o stop.o
 </aside>
 
 `sudo dmesg`
+
+
+---
+
+#### Автор
+
+[Ваня Симоненко](https://t.me/simonoffcc), весна, 2023
