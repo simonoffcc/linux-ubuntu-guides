@@ -3,7 +3,23 @@
 
 ---
 
-### Ссылки на оригинальные гайды (Notion)
+## Навигация по репозиторию
+
+- [Гайд по сборке ядра Linux](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Linux%20Kernel%20Compilation/README.md)
+
+  - [bash-скрипт циклической сборки](https://github.com/simonoffcc/linux-ubuntu-guides/blob/main/Linux%20Kernel%20Compilation/kernelCyclicBuild.sh)
+
+- [Модули ядра Linux](https://github.com/simonoffcc/linux-ubuntu-guides/blob/main/Core%20Modules/README.md)
+
+  - [Код программ на C](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Core%20Modules/code)
+
+  - [Makefile](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/Core%20Modules/code/Makefile)
+
+- [Оценка производительности системы на Linux](https://github.com/simonoffcc/linux-ubuntu-guides/tree/main/System%20Performance%20Evaluation)
+
+---
+
+#### Ссылки на оригинальные гайды (Notion)
 
 - [Linux Kernel Compilation](https://www.notion.so/b5000ea1d3b141c5b874dc175e804319?pvs=21)
 
