@@ -93,7 +93,7 @@ done
 
 `./kernelCyclicBuild.sh`
 
-#### Interesting observation
+> #### Interesting observation
 
 В зелёном квадратике - результаты, которые были получены на ноуте, питаемым от сети
 
