@@ -10,3 +10,9 @@
 - [Core Modules](https://www.notion.so/5780494360074cd2a30b27bcd3daae64?pvs=21)
 
 - [System Performance Evaluation](https://www.notion.so/8-d93af126df4f457eb7e7f1a92a7136ee?pvs=21)
+
+---
+
+#### Автор
+
+[Ваня Симоненко](https://t.me/simonoffcc), весна, 2023
