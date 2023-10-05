@@ -148,8 +148,10 @@ done
     `time make -j6` - сборка с 6-ю потоками, т.к. выводы из основной проделанной лабораторной работы показали, что для сборки ядра это кол-во потоков является наиболее эффективным.
     
     **Результат:** `87m38,402s` - 5258 секунд
-        - ![begin](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/4_Untitled.png)
-        - ![end](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/5_Untitled.png)
+   
+    - ![begin](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/4_Untitled.png)
+
+    - ![end](https://github.com/simonoffcc/linux-ubuntu-guides/raw/main/images/5_Untitled.png)
     
 3. Повтор действий
     
